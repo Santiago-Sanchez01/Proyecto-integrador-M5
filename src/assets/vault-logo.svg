@@ -1,0 +1,26 @@
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 100 100"
+  fill="none"
+>
+  <path
+    d="M25 5H75L95 25V75L75 95H25L5 75V25Z"
+    stroke="#D4AF37"
+    stroke-width="2"
+  />
+
+  <path
+    d="M32 14H68L86 32V68L68 86H32L14 68V32Z"
+    stroke="#D4AF37"
+    stroke-width="0.8"
+  />
+
+  <path
+    d="M27 28L50 74L73 28"
+    stroke="#D4AF37"
+    stroke-width="10"
+    stroke-linejoin="miter"
+  />
+</svg>
+

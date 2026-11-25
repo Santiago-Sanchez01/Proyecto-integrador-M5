@@ -1,13 +1,7 @@
-
 import vaultLogo from './assets/vault-logo.svg'
 
 function App() {
-  const technologies = [
-    'React 18',
-    'TypeScript',
-    'Vite',
-    'Tailwind CSS',
-  ]
+  const technologies = ['React 18', 'TypeScript', 'Vite', 'Tailwind CSS']
 
   return (
     <main
@@ -51,8 +45,8 @@ function App() {
         <div className="mx-auto my-8 h-px w-24 bg-vault-gold" />
 
         <p className="mx-auto max-w-md text-sm leading-relaxed text-vault-secondary sm:text-base">
-          Estamos construyendo una nueva experiencia para los
-          amantes de los cómics, los coleccionables y la cultura geek.
+          Estamos construyendo una nueva experiencia para los amantes de los cómics, los
+          coleccionables y la cultura geek.
         </p>
 
         <div
@@ -62,14 +56,9 @@ function App() {
             bg-vault-surface px-4 py-2 text-sm
           "
         >
-          <span
-            aria-hidden="true"
-            className="h-2 w-2 rounded-full bg-vault-success"
-          />
+          <span aria-hidden="true" className="h-2 w-2 rounded-full bg-vault-success" />
 
-          <span className="text-vault-success">
-            Entorno de desarrollo listo
-          </span>
+          <span className="text-vault-success">Entorno de desarrollo listo</span>
         </div>
 
         <div className="mt-8 flex flex-wrap justify-center gap-2">
@@ -87,9 +76,7 @@ function App() {
           ))}
         </div>
 
-        <footer className="mt-12 text-xs text-vault-muted">
-          COMIC VAULT · Argentina · v0.1.0
-        </footer>
+        <footer className="mt-12 text-xs text-vault-muted">COMIC VAULT · Argentina · v0.1.0</footer>
       </section>
     </main>
   )

@@ -4,7 +4,7 @@ function HomePage() {
   const technologies = ['React 18', 'TypeScript', 'Vite', 'Tailwind CSS']
 
   return (
-    <main
+    <section
       className="
         relative flex min-h-screen items-center
         justify-center overflow-hidden
@@ -76,9 +76,9 @@ function HomePage() {
           ))}
         </div>
 
-        <footer className="mt-12 text-xs text-vault-muted">COMIC VAULT · Argentina · v0.1.0</footer>
+        <p className="mt-12 text-xs text-vault-muted">COMIC VAULT · Argentina · v0.1.0</p>
       </section>
-    </main>
+    </section>
   )
 }
 
